@@ -1,0 +1,59 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+@media screen and (min-width: 441px) {
+  header {
+    display: none;
+  }
+
+  main {
+    display: none;
+  }
+
+  footer {
+  display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: aquamarine;
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  main video {
+    border-radius: 15px;
+  }
+
+  main h2 {
+    padding: 15px 50px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+  }
+
+  footer {
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 35px;
+    background-color: aquamarine;
+    padding: 35px 0px;
+  }
+
+  footer h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
